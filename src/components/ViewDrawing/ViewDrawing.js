@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import './AllDrawings.css'
+import '../AllDrawings/AllDrawings.css'
 
 const ViewDrawing = () => {
   const { id } = useParams();

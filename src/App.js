@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import CanvasDrawing from './components/CanvasDrawing';
-import AllDrawings from './components/AllDrawings';
-import ViewDrawing from './components/ViewDrawing';
+import CanvasDrawing from './components/CanvasDrawing/CanvasDrawing';
+import AllDrawings from './components/AllDrawings/AllDrawings';
+import ViewDrawing from './components/ViewDrawing/ViewDrawing';
 
 function App() {
   return (

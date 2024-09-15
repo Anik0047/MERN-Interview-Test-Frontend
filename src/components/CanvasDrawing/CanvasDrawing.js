@@ -220,7 +220,7 @@ const CanvasDrawing = () => {
     setIsTextActive(false);
   };
 
-  // Function to save the image
+  
   const saveImage = async () => {
     if (!imageName.trim()) {
       alert('Please enter a name for the image.');
