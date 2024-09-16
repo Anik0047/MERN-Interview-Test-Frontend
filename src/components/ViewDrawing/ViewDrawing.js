@@ -7,7 +7,7 @@ const ViewDrawing = () => {
   const [image, setImage] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/images/${id}`)
+    fetch(`https://whiteboard-backend-sooty.vercel.app/images/${id}`)
       .then((response) => response.json())
       .then((data) => setImage(data))
       .catch((error) => console.error('Error fetching image:', error));
